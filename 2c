@@ -1,0 +1,21 @@
+// 2c.cpp : Defines the entry point for the console application.
+// Autor: Gustavo Ferrel Paredes	
+// Fecha: 06/09/2013
+// c)	Calcular la cuenta de compras de un supermercado, considerando que se compraron 5 tipos de artículos, cuyas cantidades y precios son cant1, pre1, cant2, pre2, . . . , respectivamente.
+ 
+#include "stdafx.h"
+#include <iosstream>
+#include "conio.h"
+
+using namespace std;
+
+int tmain()
+void main()
+{
+float S,preico1,precio2,precio3,cuenta1,cuenta2,cuenta3;
+cout<<"ingresar precio1:";
+cin>>precio1;
+S=precio1*cuenta1+precio2*cuenta2+precio3*cuenta3
+cout<<"el total es:"<<S;
+getch();
+}
