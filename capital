@@ -1,0 +1,23 @@
+// Capital.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+
+{
+float K,i,I;
+int n;
+cout<<"ingrese I";
+cin>>I;
+cout<<"ingrese i";
+cin>>i;
+cin>>n;
+K=I/(i*n);
+cout<<K;
+getch();
+}
+
+
