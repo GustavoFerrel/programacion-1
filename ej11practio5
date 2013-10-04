@@ -1,0 +1,41 @@
+// areas.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+int main()
+
+{
+	int op;
+    float a,l,b,h,pi,r;
+    do
+    {
+      cout<< "1.Area Cuadrado\n";
+      cout<< "2.Area Circulo\n";
+	  cout<< "0.salir";
+	cin >>o;
+      switch(op)
+      case 1: 
+	cout<<"ingrese l";
+	cin>>l;
+	a=l*l;
+	cout<<"l";
+    break;
+	  case 2:
+        cout<<"ingrese radio";
+        cin >>r;
+        cin >>3.1416;
+        a=r*3.1416;
+        cout <<a;
+       case 0:
+        cout "Gracias por usar el sistema";
+        break;
+      default
+        cout << "Error";
+    }
+    while (op!=0);
+   
+    }
